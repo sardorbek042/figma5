@@ -1,0 +1,692 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* header start */
+/* Inter */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 100px;
+}
+header .header_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+}
+header .header_text .header_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+header .header_text .header_logo h2{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    color: #18216D;
+}
+header .header_text .header_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+header .header_text .header_links p a{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #18216D;
+}
+header .header_btns{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+header .header_btns button{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    background-color: #fff;
+    border: none;
+    color: #18216D;
+    transition: 0.5s;
+}
+header .header_btns button:hover{
+    width: 136px;
+    height: 52px;
+    border-radius: 6px;
+    border: none;
+    background-color: #18216D;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;   
+    color: #fff;
+}
+/* header end */
+
+/* banner start */
+.banner{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+.banner .banner_text h1{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: #18216D;
+    padding-bottom: 16px;
+}
+.banner .banner_text p{
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #18216D;
+    padding-bottom: 34px;
+}
+.banner .banner_text button{
+    width: 180px;
+    height: 66px;
+    border-radius: 6px;
+    background-color: #00ECD0;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20.57px;
+    text-align: center;
+    color: #18216D;
+}
+.banner .banner_image img{
+    width: 480px;
+    height: 500px;
+}
+/* banner end */
+
+/* box start */
+.box{
+    width: 100%;
+    height: 250px;
+}
+.box .box_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+}
+.box .box_text h1{
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: left;
+    color: #18216D;
+}
+.box .box_text .box_count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 93px;
+}
+.box .box_text .box_count .count1 h1{
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #18216D;
+    padding-bottom: 10px;
+}
+.box .box_text .box_count .count1 img{
+    padding-bottom: 12px;
+}
+.box .box_text .box_count .count1 p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;  
+    color: #18216D;
+}
+.box .box_brands{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 170px;
+}
+.box .box_brands img{
+    width: 112.12px;
+    height: 34.88px;
+}
+/* box end */
+
+/* item start */
+.item{
+    width: 100%;
+    height: 500px;
+    margin-top: 130px;
+    padding: 0px 100px 0px 125px;
+}
+.item h1{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #18216D;
+    padding-bottom: 12px;
+}
+.item p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #18216D;
+    padding-bottom: 48px;
+}
+.item .item_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.item .item_cards .card{
+    width: 320px;
+    height: 267px;
+}
+.item .item_cards .card img{
+    width: 72px;
+    height: 72px;
+}
+.item .item_cards .card h2{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    margin-top: 22px;
+    color: #18216D;
+    padding-bottom: 14px;
+}
+.item .item_cards .card p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.item .item_cards .card h3 a{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #18216D;
+}
+/* item end */
+
+/* calendar start */
+.calendar{
+    width: 100%;
+    height: 590px;
+    background-color: #f2f7fe;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 130px;
+    padding: 0px 50px 0px 120px;
+}
+.calendar .calendar_text h1{
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    color: #18216D;
+    padding-bottom: 15px;
+}
+.calendar .calendar_text p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #18216D;
+    padding-bottom: 40px;
+}
+.calendar .calendar_text button{
+    width: 160px;
+    height: 52px;
+    border-radius: 6px;
+    border: none;
+    background-color: #005FEC;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20.57px;
+    text-align: center;
+    color: #fff;
+}
+.calendar .calendar_image img{
+    width: 600px;
+    height: 437px;
+}
+
+/* calendar end */
+
+/* communication start */
+.communication{
+    width: 100%;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.communication .communication_image .boy{
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+}
+.communication .communication_image .girl{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 245px;
+    right: 390px;
+}
+.communication .communication_image .recorder{
+    width: 85px;
+    height: 31px;
+    position: relative;
+    bottom: 320px;
+    right: 200px;
+}
+.communication .communication_image .phone{
+    position: relative;
+    right: 420px;
+    bottom: 40px;
+}
+.communication .communication_image .image_meeting{
+    width: 184px;
+    height: 150px;
+    box-shadow: 5px 5px 10px 5px lightgray;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 16px 25px;
+    position: relative;
+    left: 310px;
+    bottom: 90px;
+}
+.communication .communication_image .image_meeting h3{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #18216D;
+    padding-bottom: 8px;
+}
+.communication .communication_image .image_meeting .meeting_images{
+    display: flex;
+    align-items: center;
+}
+.communication .communication_image .image_meeting .meeting_images .girl2{
+    position: relative;
+    right: 10px;
+}
+.communication .communication_image .image_meeting .meeting_images .boy1{
+    position: relative;
+    right: 20px;
+}
+.communication .communication_image .image_meeting .meeting_images .girl3{
+    position: relative;
+    right: 35px;
+}
+.communication .communication_image .image_meeting .meeting_images .number{
+    position: relative;
+    right: 50px;
+}
+.communication .communication_image .image_meeting button{
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    background-color: #DAE9FF;
+    margin-top: 16px;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #005FEC;
+}
+.communication .communication_text h1{
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    color: #18216D;
+    padding-bottom: 16px;
+}
+.communication .communication_text p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #18216D;
+    padding-bottom: 30px;
+}
+.communication .communication_text .faster{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.communication .communication_text .faster input{
+    margin-bottom: 30px;
+}
+.communication .communication_text .faster p{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+}
+.communication .communication_text button{
+    width: 164px;
+    height: 54px;
+    border-radius: 6px;
+    border: none;
+    background-color: #005FEC;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;  
+    color: #FFFFFF;
+}
+/* communication end */
+
+/* plan start */
+.plan{
+    width: 100%;
+    height: 1000px;
+    margin-top: 130px;
+}
+.plan h1{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #18216D;
+    padding-bottom: 20px;
+}
+.plan p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #18216D;
+    padding-bottom: 40px;
+}
+.plan .plan_btns{
+    width: 272px;
+    height: 60px;
+    border-radius: 6px;
+    opacity: 0.1px;
+    background-color: #E6EFFD;
+    margin-left: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 6px;
+}
+.plan .plan_btns button{
+    width: 135px;
+    height: 48px;
+    border-radius: 6px;
+    border: none;
+    background-color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: center;
+    color: #005FEC;
+}
+.plan .plan_btns .monthly{
+    color: #18216D;
+    background-color: transparent;
+}
+.plan .plan_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+.plan .plan_cards .card{
+    width: 355px;
+    height: 620px;
+    border-radius: 10px;
+    border: 1px solid #a5a6a8;
+    margin-top: 80px;
+}
+.plan .plan_cards .card h3{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 22px;
+    color: #18216D;
+}
+.plan .plan_cards .card h2{
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    padding-left: 41px;
+    color: #18216D;
+    padding-bottom: 41px;
+}
+.plan .plan_cards .card hr{
+    color: #a5a6a8;
+}
+.plan .plan_cards .card .card_text{
+    padding: 39px 41px;
+
+}
+.plan .plan_cards .card .card_text .card_inp{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 16px;
+}
+.plan .plan_cards .card .card_text .card_inp h4{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #18216D;
+}
+.plan .plan_cards .card button{
+    width: 181px;
+    height: 52px;
+    border-radius: 6px;
+    opacity: 0.1px;
+    border: none;
+    background-color: #E6EFFD;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #18216D;
+    margin-top: 56px;
+    transition: 0.5s;
+}
+.plan .plan_cards .card button:hover{
+    width: 181px;
+    height: 52px;
+    border-radius: 6px;
+    background-color: #005FEC;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;  
+    color: #fff;
+}
+/* plan end */
+
+/* testimonial start */
+.testimonial{
+    width: 100%;
+    height: 650px;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 106px;
+}
+.testimonial .testimonial_text h1{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;   
+    color: #18216D;
+    padding-bottom: 55px;
+}
+.testimonial .testimonial_text p{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 44px;
+    padding-bottom: 33px;
+}
+.testimonial .testimonial_text h3{
+    font-family: "Inter", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #18216D;
+    padding-bottom: 6px;
+}
+.testimonial .testimonial_text h5{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 60%;
+    color: #18216D;
+}
+/* testimonial end */
+
+.footer{
+    width: 100%;
+    height: 600px;
+    background-color: #FAFAFA;
+}
+.footer .footer_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 99px;
+    padding-top: 120px;
+}
+.footer .footer_text .footer_meeting{
+    margin-bottom: 120px;
+}
+.footer .footer_meeting .footer_logo{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.footer .footer_meeting .footer_logo h2{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    color: #18216D;
+}
+.footer .footer_meeting p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #18216D;
+    margin-top: 19px;
+    padding-bottom: 20px;
+}
+.footer .footer_recources{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.footer .contact{
+    margin-bottom: 115px;
+}
+.footer .footer_recources h2{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: #18216D;
+}
+.footer .footer_recources p a{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: #18216D;
+}
+.footer hr{
+    border: 1px solid #18216D;
+    margin-top: 60px;
+}
+.footer .special{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 30px;
+    color: #18216D;
+}
